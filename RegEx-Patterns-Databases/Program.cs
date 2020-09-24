@@ -19,7 +19,7 @@ namespace RegEx_Patterns_Databases
 
                 string emailID = firstNameEmailID[1];
 
-                var element = new KeyValuePair<string, string>(firstName, emailID);
+                var element = new KeyValuePair<string, string>(emailID,firstName);
 
                 list.Add(element);
             }
